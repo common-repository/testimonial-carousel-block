@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpfound/testimonial-carousel",
+  "version": "1.0",
+  "title": "Testimonial Carousel",
+  "category": "widgets",
+  "icon": "dashicons dashicons-testimonial",
+  "description": "Testimonial carousel slider block",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "testimonial-carousel-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

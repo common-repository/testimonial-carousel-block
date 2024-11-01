@@ -1,0 +1,211 @@
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/testimonial-carousel/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slick-track:before, .slick-track:after {
+  content: "";
+  display: table;
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+[dir=rtl] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.wp-block-wpfound-testimonial-carousel .testimonial-item__wrap {
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media (max-width: 991px) {
+  .wp-block-wpfound-testimonial-carousel .testimonial-item__wrap .testimonial-item__content {
+    padding: 0 !important;
+  }
+}
+.wp-block-wpfound-testimonial-carousel .testimonial-item__wrap .test-desc {
+  margin-bottom: 30px;
+}
+.wp-block-wpfound-testimonial-carousel .testimonial-item__wrap .test-desc p {
+  font-size: 18px;
+  color: #758598;
+  letter-spacing: 0.16px;
+  line-height: 30px;
+  margin-bottom: 13px;
+}
+.wp-block-wpfound-testimonial-carousel .testimonial-item__wrap .default-image {
+  width: 60px;
+  height: 60px;
+  background: #ddd;
+  border-radius: 50%;
+}
+.wp-block-wpfound-testimonial-carousel .testimonial-item__wrap .testimonial-footer {
+  display: inline;
+}
+.wp-block-wpfound-testimonial-carousel .testimonial-item__wrap .author-image {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 12px;
+}
+.wp-block-wpfound-testimonial-carousel .testimonial-item__wrap .author-image img {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+.wp-block-wpfound-testimonial-carousel .testimonial-item__wrap .author-info {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 12px;
+}
+.wp-block-wpfound-testimonial-carousel .testimonial-item__wrap .author-info h4, .wp-block-wpfound-testimonial-carousel .testimonial-item__wrap .author-info h5 {
+  margin-bottom: 0;
+}
+.wp-block-wpfound-testimonial-carousel .testimonial-item__wrap .author-info h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 6px;
+}
+.wp-block-wpfound-testimonial-carousel .testimonial-item__wrap .author-info h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #758598;
+}
+.wp-block-wpfound-testimonial-carousel .slick-slider .slick-arrow {
+  position: absolute;
+  left: -45px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background: none;
+  color: #000;
+  z-index: 3;
+}
+.wp-block-wpfound-testimonial-carousel .slick-slider .slick-arrow.slick-next {
+  left: auto;
+  right: -45px;
+}
+.wp-block-wpfound-testimonial-carousel .slick-slider .slick-dots {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 22px;
+}
+.wp-block-wpfound-testimonial-carousel .slick-slider .slick-dots li {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.wp-block-wpfound-testimonial-carousel .slick-slider .slick-dots .slick-active button:before {
+  background: #000;
+}
+.wp-block-wpfound-testimonial-carousel .slick-slider .slick-dots button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.wp-block-wpfound-testimonial-carousel .slick-slider .slick-dots button:before {
+  font-family: slick;
+  font-size: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  content: "•";
+  text-align: center;
+  color: #CECECE;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #CECECE;
+  border-radius: 100%;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
